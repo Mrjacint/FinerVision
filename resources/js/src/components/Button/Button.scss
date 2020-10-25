@@ -1,0 +1,19 @@
+@import '../../styles/variables';
+
+.FormCardButton {
+    background-image: $BtnBackgroundImg;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    font-family: Myriad Pro;
+    font-weight: 100;
+    cursor: pointer;
+    font-size: 16px;
+
+    position: absolute;
+    display: block;
+    right: 10px;
+    bottom: 10px;
+}

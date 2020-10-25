@@ -1,0 +1,21 @@
+@import '../../../styles/mixins';
+
+.inputDOBBlock {
+    @include basicInputBlock();
+    
+    input {
+        @include basicInputs();
+    
+        width: 40px;
+    
+        margin-top: 5px;
+        margin-right: 5px;
+        text-align: center;
+    }
+    
+    p {
+        @include alert()
+    }
+}
+
+

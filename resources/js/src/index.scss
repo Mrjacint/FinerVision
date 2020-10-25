@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  src: local('Myriad Pro'), url(./fonts/MyriadProRegular.ttf) format('truetype')
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

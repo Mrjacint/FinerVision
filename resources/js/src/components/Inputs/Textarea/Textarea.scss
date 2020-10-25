@@ -1,0 +1,19 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixins';
+
+
+.textareaBlock {
+    @include basicInputBlock();
+    height: 75%;
+    width: 55%;
+    
+    textarea {
+        @include basicInputs();
+        
+        height: 100%;
+    
+        margin-top: 4px;
+        padding: 5px 0 0 5px;
+    }
+}
+

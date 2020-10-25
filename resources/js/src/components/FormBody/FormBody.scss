@@ -1,0 +1,11 @@
+@import '../../styles/variables';
+
+.formBody {
+    background-color: $formBodyBackgroundColor;
+    width: 630px;
+    height: auto;
+    margin: auto;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: $formBodyBoxShadow;
+}

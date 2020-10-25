@@ -1,0 +1,43 @@
+@import '../../styles/variables';
+
+.FormCard {
+    position: relative;
+    background-color: $FormCardBackgroundColor;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.FormCardHeader {
+    border-radius: 10px;
+    background-image: $FormCardHeaderBackgroundImg;
+    box-shadow: $FormCardBoxShadow;
+
+    p {
+        padding: 1em 0 1em 1em;
+        margin: 0px;
+        color: white; 
+        text-shadow: 1px 1px 1px rgb(104, 104, 104);
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+
+.FormCardBody {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.Open {
+    transform: translateX(0);
+    transition: height  1s;
+    height: 170px;
+}
+
+.Close {
+    transform: translateX(-100%);
+    transition: height  1s;
+    height: 0px;
+}
